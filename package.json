@@ -1,0 +1,31 @@
+{
+  "name": "gulp-replace-async",
+  "version": "0.0.1",
+  "description": "Replace text using an async replacement function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naturalatlas/gulp-replace-async"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "replace",
+    "async",
+    "callback"
+  ],
+  "author": "Brian Reavis <brian@thirdroute.com>",
+  "license": "Apache License, v2.0",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.9.2"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3",
+    "async-replace": "^1.0.0"
+  }
+}
