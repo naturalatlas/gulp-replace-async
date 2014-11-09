@@ -9,7 +9,7 @@ describe('gulp-replace-async', function() {
 			path: 'test/fixtures/source.txt',
 			cwd: 'test/',
 			base: 'test/fixtures',
-			contents: 'This is a test 1, 2, 3'
+			contents: new Buffer('This is a test 1, 2, 3')
 		});
 
 		var stream = replacePlugin('1, 2, 3', function(match, callback) {
@@ -31,7 +31,7 @@ describe('gulp-replace-async', function() {
 			path: 'test/fixtures/source.txt',
 			cwd: 'test/',
 			base: 'test/fixtures',
-			contents: 'This is a test 1, 2, 3'
+			contents: new Buffer('This is a test 1, 2, 3')
 		});
 
 		var stream = replacePlugin(/,(\s)(\d+)/g, function(match, callback) {

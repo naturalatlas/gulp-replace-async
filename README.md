@@ -1,6 +1,5 @@
 # gulp-replace-async
 [![NPM version](http://img.shields.io/npm/v/gulp-replace-async.svg)](https://www.npmjs.org/package/gulp-replace-async)
-[![Installs](http://img.shields.io/npm/dm/gulp-replace-async.svg)](https://www.npmjs.org/package/gulp-replace-async)
 [![Build Status](http://img.shields.io/travis/naturalatlas/gulp-replace-async/master.svg)](https://travis-ci.org/naturalatlas/gulp-replace-async)
 
 ```sh
